@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit =
+    */venv/*
+    */site-packages/*
+    */tests/*
+
+[report]
+# Output coverage report in HTML format
+show_missing = True
