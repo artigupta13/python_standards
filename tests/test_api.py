@@ -1,4 +1,4 @@
-from service.users import fetch_user
+from src.service.users import fetch_user
 
 
 def test_fetch_users(requests_mock):
